@@ -6,11 +6,10 @@ namespace Revisão
 {
     internal class Robert
     {
-        public string Nome { get; set; }
 
-        public List<string> Habilidades { get; set; }
-      = new List<string>();
 
-        public int Idade { get; set; }
+        public List<string> Habilidades;
+        public int Idade;
+        public string nome;
     }
 }
