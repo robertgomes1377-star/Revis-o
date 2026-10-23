@@ -11,6 +11,17 @@ namespace Revisão
 
         public string nome;
 
-        
+        public void ExibirDados()
+        {
+            Console.WriteLine($"Minha idade é {Idade}");
+            Console.WriteLine($"Meu nome é {nome}");
+            foreach (string item in Habilidades) 
+            {
+                Console.WriteLine($"- {Habilidades}");
+
+
+            }
+
+        }
     }
 }

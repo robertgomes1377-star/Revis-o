@@ -9,9 +9,9 @@ Habilidades1.Habilidades = new List<string>() { "Dirigir", "Meter de Ladinho", "
 
 
 
-using Revisão;
 
-Rihanna Habilidades1 = new Rihanna();
-Habilidades1. Idade = 17;
-Habilidades1.nome = "Rihanna";
-Habilidades1.Habilidades = new List<string>() { "Esforçada", "Dirigir", };
+Rihanna Habilidades2 = new Rihanna();
+Habilidades2. Idade = 17;
+Habilidades2.nome = "Rihanna";
+Habilidades2.Habilidades = new List<string>() { "Esforçada", "Dirigir", };
+Habilidades2.ExibirDados();
